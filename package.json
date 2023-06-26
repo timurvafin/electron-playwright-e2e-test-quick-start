@@ -6,7 +6,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "test": "xvfb-maybe -- playwright test"
+    "test": "xvfb-maybe -- node_modules/@playwright/test/cli.js test"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -22,9 +22,9 @@
   ],
   "license": "CC0-1.0",
   "devDependencies": {
-    "@playwright/test": "^1.16.3",
+    "@playwright/test": "^1.35.1",
     "electron": "^18.3.7",
-    "playwright": "^1.16.3",
+    "playwright": "^1.35.1",
     "xvfb-maybe": "^0.2.1"
   }
 }
