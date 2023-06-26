@@ -1,4 +1,4 @@
-name: CI/CT for each push
+name: CI
 
 on:
   push:
